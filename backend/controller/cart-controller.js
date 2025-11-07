@@ -1,5 +1,5 @@
 import { getAuth } from "@clerk/express";
-import Cart from "../models/Cart.js";
+import Cart from "../model/Cart.js";
 import axios from "axios";
 
 export const getCart = async (req, res) => {
@@ -20,6 +20,8 @@ export const addToCart = async (req, res) => {
     try {
         const { productId, qty } = req.body;
         const { userId , isAuthenticated } = getAuth(req);
+
+        console.log(productId,userId,isAuthenticated)
 
         if(!isAuthenticated){
             return res.status(401).json({error:"User not authenticated"});
