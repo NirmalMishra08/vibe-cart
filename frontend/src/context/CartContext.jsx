@@ -52,7 +52,7 @@ export const CartProvider = ({ children }) => {
         try {
             const token = await getToken()
             await axios.post(
-                'http://localhost:8000/api/cart',
+                `${import.meta.env.VITE_CLERK_BACKEND_URL}/api/cart`,
                 { productId, qty },
                 {
                     headers: {
@@ -70,7 +70,7 @@ export const CartProvider = ({ children }) => {
     const removeFromCart = async (itemId) => {
         try {
             const token = await getToken()
-            await axios.delete(`http://localhost:8000/api/cart/${itemId}`, {
+            await axios.delete(`${import.meta.env.VITE_CLERK_BACKEND_URL}/api/cart/${itemId}`, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },
