@@ -1,3 +1,9 @@
+
+## 🎥 Demo Video
+
+Check out the full walkthrough of the project on YouTube:  
+👉 [Watch Demo on YouTube](https://www.youtube.com/watch?v=j1ToSX_OIDc)
+
 ## 📸 Screenshots
 
 ### Home Page  
