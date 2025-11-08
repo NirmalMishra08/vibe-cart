@@ -1,8 +1,9 @@
 
 ## 🎥 Demo Video
 
-Check out the full walkthrough of the project on YouTube:  
-👉 [Watch Demo on YouTube](https://www.youtube.com/watch?v=j1ToSX_OIDc)
+click the thumbnail below to play directly 👇  
+
+[![Watch the video](https://img.youtube.com/vi/j1ToSX_OIDc/0.jpg)](https://www.youtube.com/watch?v=j1ToSX_OIDc)
 
 ## 📸 Screenshots
 
