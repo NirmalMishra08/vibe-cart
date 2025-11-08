@@ -1,3 +1,27 @@
+## 📸 Screenshots
+
+### Home Page  
+![Home Page](./screenshots/home.png)
+
+### Search Item Page  
+![Home Page](./screenshots/search-item.png)
+
+### Filter Page  
+![Home Page](./screenshots/filter.png)
+
+### Sign In Page  
+![Sign In Page](./screenshots/sign-in.png)
+
+### Checkout Page  
+![Checkout Page](./screenshots/checkout-page.png)
+
+### Payment Page  
+![Payment Page](./screenshots/payment.png)
+
+### Success Page  
+![Success Page](./screenshots/payment-success.png)
+
+
 # 🛒 VibeCart — MERN Stack E-Commerce App with Clerk Authentication & Stripe Payments
 
 VibeCart is a modern, full-stack e-commerce web app built using the **MERN stack** (MongoDB, Express, React, Node.js) with **Clerk** for authentication and **Stripe** for secure online payments.  
